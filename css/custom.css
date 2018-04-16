@@ -47,10 +47,12 @@ body {
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: Bree Serif,Georgia,serif;
+    font-weight: normal
 }
 
 h4 {
     color: #000;
+    font-weight: normal
 }
 
 form {
