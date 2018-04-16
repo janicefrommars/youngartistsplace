@@ -57,6 +57,16 @@ form {
     margin-top: 10px;
 }
 
+.table-grey {
+    background-color: #f7f7f7;
+}
+
+.table-green {
+    font-size: 20px;
+    font-family: Bree Serif,Georgia,serif;
+    background-color: #74bf82;
+}
+
 .table-teal {
     font-size: 20px;
     font-family: Bree Serif,Georgia,serif;
