@@ -40,6 +40,12 @@
     transition: all 0.2s ease-out;
 }
 
+section {
+    position: relative;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
 body {
     font-family: "Roboto", Helvetica, Arial, sans-serif;
     font-size: 18px;
@@ -92,4 +98,46 @@ form {
 	color: #333;
 	background: #ffbd4a;
 	padding: 30px 0;
+}
+
+/* MAILCHIMP STYLING */
+/* Changes the style of the overall form */
+#mc_embed_signup {
+    background: #fff;
+    color: #000000;
+    padding: 10px;
+    font-size: 13px;
+    font-family: Bree Serif,Georgia,serif;
+    text-align: center;
+}
+
+/* Styles the header text above the inputs */
+#mc_embed_signup h2 {
+    font-size: 18px;
+    margin: 0 0 10px;
+    color: #000000;
+    text-align: center;
+}
+
+#mc_embed_signup p {
+    font-size: 13px;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    color: #000000;
+}
+
+/* Adds extra space around the input boxes */
+#mc_embed_signup .mc-field-group {
+    padding: 5px 0;
+}
+
+/* Styles the input boxes */
+#mc_embed_signup  input {
+    width: 200px;
+}
+
+/* Styles the subscribe button */
+#mc_embed_signup .button {
+    background-color: #44d9e6;
+    color: #000;
+    margin: 0 auto;
 }
