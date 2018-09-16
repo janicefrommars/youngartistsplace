@@ -142,13 +142,6 @@ form {
     margin: 0 auto;
 }
 
-/*Blog image*/
-.blog-image{
-    width:50%;
-}
-
-@media(max-width:768px){
-.blog-image{
-    width:100%;
-}
+.contactform {
+    font-family: Bree Serif,Georgia,serif;
 }
