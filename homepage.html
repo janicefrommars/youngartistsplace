@@ -64,6 +64,20 @@
             background-size: cover;
         }
 
+        .mobile-version{
+                display:none;
+            }
+
+        @media(max-width:982px){
+            .desktop-version{
+                display:none;
+            }
+            .mobile-version{
+                display:block;
+            }
+
+        }
+
     </style>
 </head>
 
@@ -161,7 +175,7 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row desktop-version">
                     <div class="col-md-8" style="text-align: right; margin-top: 5%;">
                            <h3>Young Cartoonists</h3>
                             <p>(9-13yrs) Kids will learn the process of drawing their own comics.</p>
@@ -174,6 +188,20 @@
                         
                     </div>
                 </div>
+
+                <div class="row mobile-version">
+                    <div class="col-md-8" style="text-align: right; margin-top: 5%;">
+                           <div class="image">
+                                <a href="kids"><img style="border-radius:50%; width: 80%;" src="img/preview-comic.png" alt="" class="img-responsive" /></a>
+                            </div>
+                    </div>
+                    <div class="col-md-4">
+                         <h3>Young Cartoonists</h3>
+                            <p>(9-13yrs) Kids will learn the process of drawing their own comics.</p>
+                            <p class="read-more"><a href="kids" class="btn btn-ghost">More info</a></p>
+                    </div>
+                </div>
+
 
                 <div class="row">
                     <div class="col-md-4">
@@ -188,7 +216,7 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row desktop-version">
                     <div class="col-md-8" style="text-align: right; margin-top: 5%;">
                         <h3>Illustrative Painting</h3>
                             <p>(13-17yrs) A course for teens that covers both watercolour and gouache painting.</p>
@@ -198,6 +226,19 @@
                             <div class="image">
                                 <a href="illustrative-painting"><img style="border-radius:50%; width: 80%;" src="img/preview-illust.png" alt="" class="img-responsive"></a>
                             </div>
+                    </div>
+                </div>
+
+                <div class="row mobile-version">
+                    <div class="col-md-8" style="text-align: right; margin-top: 5%;">
+                        <div class="image">
+                                <a href="illustrative-painting"><img style="border-radius:50%; width: 80%;" src="img/preview-illust.png" alt="" class="img-responsive"></a>
+                            </div>
+                    </div>
+                    <div class="col-md-4">
+                            <h3>Illustrative Painting</h3>
+                            <p>(13-17yrs) A course for teens that covers both watercolour and gouache painting.</p>
+                            <p class="read-more"><a href="illustrative-painting" class="btn btn-ghost">More info</a></p>
                     </div>
                 </div>
             </div>
