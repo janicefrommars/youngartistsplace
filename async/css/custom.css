@@ -40,6 +40,18 @@
     transition: all 0.2s ease-out;
 }
 
+.banner-home {
+    position: relative;
+}
+
+.textoverlay h1 {
+    font-family: 'Calligraffitti', cursive;
+    color: #b6d8e2;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+}
+
 section {
     position: relative;
     padding-top: 35px;
