@@ -77,6 +77,10 @@ form {
     margin-top: 10px;
 }
 
+a i.fa {
+    color: #ff8000;
+}
+
 .table-grey {
     background-color: #f7f7f7;
 }
