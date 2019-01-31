@@ -44,6 +44,14 @@
     position: relative;
 }
 
+.bg-primary {
+    background-color: #a8ea75;
+}
+
+.bg-secondary {
+    background-color: #ff9c36;
+}
+
 .textoverlay h1 {
     font-family: 'Calligraffitti', cursive;
     color: #b6d8e2;
